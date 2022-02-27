@@ -1,0 +1,38 @@
+{
+  "name": "@landing/003-next",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "export": "next export",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "framer-motion": "^2.9.4",
+    "next": "10.0.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.2",
+    "rc-drawer": "^4.1.0",
+    "react": "16.13.1",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "16.13.1",
+    "react-ga": "^3.2.0",
+    "react-icons": "^3.11.0",
+    "react-modal-video": "1.2.6",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.1",
+    "react-stickynode": "^3.0.4",
+    "react-waypoint": "^9.0.3",
+    "swiper": "^6.3.5",
+    "theme-ui": "^0.3.1",
+    "typeface-dm-sans": "^1.1.13"
+  },
+  "devDependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "next-sitemap": "^1.2.4"
+  }
+}
