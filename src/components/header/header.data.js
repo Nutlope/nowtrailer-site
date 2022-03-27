@@ -8,10 +8,6 @@ export default [
     label: "How Does it work?",
   },
   {
-    path: "pricing",
-    label: "Our Story",
-  },
-  {
     path: "faq",
     label: "Faq",
   },

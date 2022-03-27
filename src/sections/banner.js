@@ -28,14 +28,6 @@ const Banner = () => {
         <Flex sx={styles.banner.row}>
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.content}>
-              <Box sx={styles.banner.stars}>
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                Trused by over 4,332 students
-              </Box>
               <Heading as="h3">
                 Transport your items NOW <br />
               </Heading>
@@ -52,28 +44,6 @@ const Banner = () => {
                 we have the means to get your goods to their destination safely
                 and securely without you breaking a sweat!
               </Text>
-              <Box as="form" sx={styles.banner.form}>
-                <Box as="label" htmlFor="search" variant="styles.srOnly">
-                  Search
-                </Box>
-                <Input
-                  name="search"
-                  id="search"
-                  placeholder="Search Course Name"
-                  sx={styles.banner.form.input}
-                />
-                <Button
-                  type="submit"
-                  aria-label="search btn"
-                  sx={(styles.banner.form.button, { color: "#02073E" })}
-                >
-                  <IoIosSearch />
-                </Button>
-              </Box>
-              <Box sx={styles.banner.partner}>
-                <span>Sponsored by:</span>
-                <Image src={PartnerImage} alt="banner image" />
-              </Box>
             </Box>
           </Box>
           <Box sx={styles.banner.col}>
