@@ -59,7 +59,7 @@ const Banner = () => {
                 <Image
                   src={BannerImage}
                   alt="banner image"
-                  width={540}
+                  width={440}
                   height={680}
                 />
                 <VideoBtn path="8mwkx5gO8MU" />
