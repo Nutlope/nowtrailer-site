@@ -18,7 +18,8 @@ import { IoIosSearch } from "react-icons/io";
 import BannerBG from "assets/banner-bg-1-1.png";
 import BannerTextLine from "assets/banner-text-line.png";
 import BannerPattern from "assets/banner-pattern.png";
-import BannerImage from "assets/banner-image-1.png";
+import BannerImage from "assets/yt_vertical.png";
+// import BannerImage from "assets/banner-image-1.png";
 import PartnerImage from "assets/brands.svg";
 
 const Banner = () => {
@@ -29,28 +30,39 @@ const Banner = () => {
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.content}>
               <Heading as="h3">
-                Transport your items NOW <br />
+                Transport your items instantly <br />
+              </Heading>
+              <br></br>
+              <Heading as="h5">
+                Transport your items <b>now</b> with our versatile trailers.
               </Heading>
               <Text as="p">
-                Transport your items NOW with our Versatile trailers We LOVE to
-                help our community and our environment. We connect people In
-                need of transporting items with people in need of jobs using
-                utility trailers. We use Environmentally Friendly passenger
-                cars. Gas, or electric with our Versatile and Unique Proprietary
-                4’ X 8’ utility trailer instead of a full-size gas guzzler
-                pickup truck. Our Trailer services, Now Trailer LLC, have
-                provided a convenience that is invaluable. Whether you need to
-                send a package, receive inventory, or transport large equipment,
-                we have the means to get your goods to their destination safely
-                and securely without you breaking a sweat!
+                We <b>LOVE</b> to help our community and our environment. We
+                connect people In need of transporting items with people in need
+                of jobs using utility trailers. We use environmentally friendly
+                passenger cars.
+              </Text>
+              <Text as="p">
+                Gas, or electric with our versatile and unique proprietary 4’ X
+                8’ utility trailer instead of a full-size gas guzzler pickup
+                truck. Our Trailer services, Now Trailer LLC, have provided a
+                convenience that is invaluable. Whether you need to send a
+                package, receive inventory, or transport large equipment, we
+                have the means to get your goods to their destination safely and
+                securely <b>without you breaking a sweat!</b>
               </Text>
             </Box>
           </Box>
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.imageBox}>
               <Box sx={styles.banner.imageInner}>
-                <Image src={BannerImage} alt="banner image" />
-                <VideoBtn path="L9jU-IIN0ng" />
+                <Image
+                  src={BannerImage}
+                  alt="banner image"
+                  width={540}
+                  height={680}
+                />
+                <VideoBtn path="8mwkx5gO8MU" />
               </Box>
             </Box>
           </Box>

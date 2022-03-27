@@ -1,38 +1,34 @@
-import { Box, Grid, Container } from 'theme-ui';
-import React from 'react';
-import BlockTitle from 'components/block-title';
-import FavoriteCard from 'components/favorite-card';
-import fevCardImageOne from 'assets/fev-course-1-1.png';
-import fevCardImageTwo from 'assets/fev-course-1-2.png';
-import fevCardImageThree from 'assets/fev-course-1-3.png';
+import { Box, Grid, Container } from "theme-ui";
+import React from "react";
+import BlockTitle from "components/block-title";
+import FavoriteCard from "components/favorite-card";
+import fevCardImageOne from "assets/yt_3.png";
+import fevCardImageTwo from "assets/yt_1.png";
+import fevCardImageThree from "assets/yt_2.png";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const favoriteCourseData = [
   {
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: "How we save you money by using a trailer instead of a truck",
     image: fevCardImageOne,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '2,538 students watched',
-    videoLink: 'g9avOpUOREM',
+    watchCount: "253 people watched",
+    videoLink: "DRWrlu7xhKg",
     starCount: 5,
   },
   {
     title:
-      'Create multiple artboard by using figma prototyping tools development',
+      "How we transport your goods safely and efficiently with our trailer",
     image: fevCardImageTwo,
-    reviewCount: '4.5 (524 reviews)',
-    watchCount: '3,532 students watched',
-    videoLink: 'L9jU-IIN0ng',
+    watchCount: "353 people watched",
+    videoLink: "1ob8hhm6Szg",
     starCount: 4,
   },
   {
-    title:
-      'Convert your web layout theming easily with sketch zeplin extension',
+    title: "How we use our proprietary trailer to keep your goods safe",
     image: fevCardImageThree,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
-    videoLink: 'L9jU-IIN0ng',
+    watchCount: "103 people watched",
+    videoLink: "3iG8bFOEQWE",
     starCount: 5,
   },
 ];
@@ -99,35 +95,35 @@ export default FavoriteCourse;
 
 const styles = {
   fevCourse: {
-    paddingTop: ['60px', null, null, '80px', '110px'],
-    pb: [null, null, null, '30px', '50px', '0'],
+    paddingTop: ["60px", null, null, "80px", "110px"],
+    pb: [null, null, null, "30px", "50px", "0"],
     container: {
       maxWidth: 1440,
-      '@media(max-width:1440px)': {
+      "@media(max-width:1440px)": {
         maxWidth: 1240,
       },
-      '.swiper-container': {
-        pb: '30px',
-        overflow: [null, null, null, null, null, 'visible'],
+      ".swiper-container": {
+        pb: "30px",
+        overflow: [null, null, null, null, null, "visible"],
       },
     },
     blockTitle: {
-      textAlign: 'center',
-      marginBottom: '30px',
+      textAlign: "center",
+      marginBottom: "30px",
     },
     row: {
-      display: 'grid',
-      gridTemplateColumns: '1fr 1fr 1fr',
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr 1fr",
       gridGap: 30,
-      '@media(max-width: 991px)': {
-        gridTemplateColumns: '1fr 1fr',
+      "@media(max-width: 991px)": {
+        gridTemplateColumns: "1fr 1fr",
       },
-      '@media(max-width: 575px)': {
-        gridTemplateColumns: '1fr',
+      "@media(max-width: 575px)": {
+        gridTemplateColumns: "1fr",
       },
     },
     col: {
-      display: 'flex',
+      display: "flex",
     },
   },
 };

@@ -9,7 +9,7 @@ const popularCourseData = [
       "Professional graphic design tutorial full course with exercise file",
     reviewCount: "5.0 (392 reviews)",
     watchCount: "2,538 students watched",
-    videoLink: "L9jU-IIN0ng",
+    videoLink: "8mwkx5gO8MU",
     starCount: 5,
     expanded: true,
     list: [
@@ -31,7 +31,7 @@ const popularCourseData = [
     title: "Become ultimate photoshop expert within 30 days",
     reviewCount: "4.5 (524 reviews)",
     watchCount: "3,532 students watched",
-    videoLink: "L9jU-IIN0ng",
+    videoLink: "8mwkx5gO8MU",
     starCount: 4,
     expanded: false,
     list: [
@@ -53,7 +53,7 @@ const popularCourseData = [
     title: "After effects animation tutorial with photoshop documents",
     reviewCount: "5.0 (392 reviews)",
     watchCount: "1,037 students watched",
-    videoLink: "L9jU-IIN0ng",
+    videoLink: "8mwkx5gO8MU",
     starCount: 5,
     expanded: false,
     list: [
@@ -75,7 +75,7 @@ const popularCourseData = [
     title: "Adobe illustrator vector art design mockup",
     reviewCount: "5.0 (392 reviews)",
     watchCount: "1,037 students watched",
-    videoLink: "L9jU-IIN0ng",
+    videoLink: "8mwkx5gO8MU",
     starCount: 5,
     expanded: false,
     list: [
