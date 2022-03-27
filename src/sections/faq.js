@@ -70,6 +70,8 @@ const FAQ = () => {
   return (
     <Box as="section" id="faq" sx={styles.accordion}>
       <Container sx={styles.accordion.container}>
+        <br></br>
+        <br></br>
         <BlockTitle
           sx={styles.accordion.blockTitle}
           tagline="Frequent Question"

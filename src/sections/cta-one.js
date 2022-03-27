@@ -6,7 +6,7 @@ const CtaOne = () => {
   return (
     <Box as="section" sx={styles.ctaBox}>
       <Container>
-        <Heading as="h3">{"Ready to learn design \n with Nia Matos"}</Heading>
+        <Heading as="h3">{"Ready to deliver \n with NowTrailer?"}</Heading>
         <Link
           path="#"
           label="Contact Us"

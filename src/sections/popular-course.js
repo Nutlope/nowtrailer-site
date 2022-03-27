@@ -99,6 +99,8 @@ const PopularCourse = () => {
   return (
     <Box as="section" id="courses" sx={styles.popularCourse}>
       <Container>
+        <br></br>
+        <br></br>
         <BlockTitle
           sx={styles.popularCourse.blockTitle}
           tagline="Now Trailer LLC"
