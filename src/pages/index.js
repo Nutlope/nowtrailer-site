@@ -29,7 +29,7 @@ export default function IndexPage() {
             <Banner />
             <FavoriteCourse />
             <PopularCourse />
-            <WorkFlow />
+            {/* <WorkFlow /> */}
             <FAQ />
             <CtaOne />
             <Modal />
