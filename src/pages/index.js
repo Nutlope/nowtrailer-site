@@ -28,7 +28,7 @@ export default function IndexPage() {
             />
             <Banner />
             <FavoriteCourse />
-            <PopularCourse />
+            {/* <PopularCourse /> */}
             <WorkFlow />
             <FAQ />
             <CtaOne />

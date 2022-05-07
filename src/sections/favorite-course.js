@@ -12,22 +12,22 @@ const favoriteCourseData = [
   {
     title: "How we save you money by using a trailer instead of a truck",
     image: fevCardImageOne,
-    watchCount: "253 people watched",
-    videoLink: "DRWrlu7xhKg",
+    watchCount: "15 people watched",
+    videoLink: "8mwkx5gO8MU",
     starCount: 5,
   },
   {
     title:
       "How we transport your goods safely and efficiently with our trailer",
     image: fevCardImageTwo,
-    watchCount: "353 people watched",
+    watchCount: "19 people watched",
     videoLink: "1ob8hhm6Szg",
     starCount: 4,
   },
   {
     title: "How we use our proprietary trailer to keep your goods safe",
     image: fevCardImageThree,
-    watchCount: "103 people watched",
+    watchCount: "17 people watched",
     videoLink: "3iG8bFOEQWE",
     starCount: 5,
   },
