@@ -23,7 +23,7 @@ export default function IndexPage() {
         <VideoProvider>
           <Layout>
             <SEO
-              description="The premiere grocery delivery service."
+              description="The premiere B2B delivery service using Utility Trailers."
               title="NowTrailer"
             />
             <Banner />
