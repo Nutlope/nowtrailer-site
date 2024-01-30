@@ -9,7 +9,7 @@ const CtaOne = () => {
         <Heading as="h3">{"Ready to deliver \n with NowTrailer?"}</Heading>
         <Link
           path="#"
-          label="Contact us at (508) 571-1501"
+          label="Contact us at (508) 971-1501"
           sx={styles.ctaBox.button}
           variant="buttons.primary"
         />
