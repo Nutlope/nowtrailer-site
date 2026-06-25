@@ -1,0 +1,20 @@
+packages:
+  - "."
+onlyBuiltDependencies:
+  - "@ampproject/toolbox-optimizer"
+  - "core-js"
+  - "es5-ext"
+  - "fsevents"
+  - "mozjpeg"
+  - "optipng-bin"
+  - "sharp"
+  - "swiper"
+allowBuilds:
+  "@ampproject/toolbox-optimizer": true
+  "core-js": true
+  "es5-ext": true
+  "fsevents": true
+  "mozjpeg": true
+  "optipng-bin": true
+  "sharp": true
+  "swiper": true

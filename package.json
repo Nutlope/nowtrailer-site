@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "serve": "next start",
     "export": "next export",
     "postbuild": "next-sitemap"
@@ -34,5 +34,6 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
     "next-sitemap": "^1.2.4"
-  }
+  },
+  "packageManager": "pnpm@11.7.0"
 }
